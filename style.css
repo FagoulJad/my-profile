@@ -1,0 +1,126 @@
+body {
+	background-color: rgba(230, 230, 230, 0.5);
+	color: rgba(35, 35, 35, 1.0);
+	font-family: Lora, sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	letter-spacing: 0.25px;
+	background-image: url("images/background.jpg");
+}
+
+h2 {
+	font-family: Roboto Condensed;
+	color: rgba(50, 50, 50, 1.0);
+	font-size: 23px;
+	letter-spacing: 2px;
+	font-weight: 900;
+}
+
+
+/* Custom design using class and id */ 
+
+.container {
+	margin: 0 auto;
+	width: 50%;
+}
+
+#title-box {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	background-color: rgba(210, 210, 210, 0.6);
+	font-family: Roboto Condensed;
+	font-size: 27px;
+	font-weight: 100;
+	font-
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 0px;
+	box-shadow: 0px 0px 5px;
+}
+
+#profil-center {
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 30px;
+  	margin-top: 30px;
+  	box-shadow: 0px 0px 25px;
+}
+
+.card-white {
+  	padding: 10px 30px;
+  	border-radius: 4px;
+  	text-align: center;
+	background-color: rgba(210, 210, 210, 0.6);
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+	line-height: 22	px;
+	margin: 100px auto;
+  	margin-top: 30px;
+  	height: 190px;
+}	
+
+.hobbies {
+	height: 150px;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
+#text-blue {
+	color: white;
+	background-color: rgba(50, 50, 50, 1);
+	padding: 10px 10px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+#text-blue:hover {
+	background-color: rgba(50, 50, 50, 0.8);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+}
+
+.list-inline i {
+	font-size: 50px;
+	width: 100px;
+	color: rgba(50, 50, 50, 1);
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	width: 100px;
+	color: rgba(50, 50, 50, 0.8);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 500px;
+  }
+}
+
